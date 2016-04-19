@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/* =================  CHARTE DE COULEURS ============*/
+/*
+ROUGE : #990000;
+GRIS police: #626262;
+gris fond:#cccccc;
+*/
+/* =================  FIN CHARTE DE COULEURS ============*/
+
+/* =================  STYLES GENERAUX ============*/
+
+
+body{
+		 background: url("../images/la_meteo_5.png");
+
+	 /*
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	*/
+
+  
+    background-position: 0px 0px;
+	background-repeat: repeat-x;
+	animation: animatedBackground 100s linear infinite;
+
+}
+
+	@keyframes animatedBackground {
+		from { background-position: 0 0; }
+		to { background-position: 100% 0; }
+	}
+	@-webkit-keyframes animatedBackground {
+		from { background-position: 0 0; }
+		to { background-position: 100% 0; }
+	}
+	@-ms-keyframes animatedBackground {
+		from { background-position: 0 0; }
+		to { background-position: 100% 0; }
+	}
+	@-moz-keyframes animatedBackground {
+		from { background-position: 0 0; }
+		to { background-position: 100% 0; }
+	}
+
+
+
+
+
+
+
+		h1{
+		font-family: Raleway, arial, "Times New Roman";
+ 		font-size: 10em;
+ 		color: #ffffff;
+ 		text-align: center;
+ 		margin: 1em 0 0 0;
+ 		/*border: 1px solid black;*/	
+
+}
+
+#formulaire{
+		font-family: Raleway, arial, "Times New Roman";
+
+ 		color: #ffffff;
+ 		text-align: center;
+ 		margin: 1em auto 0 auto;
+ 		width: 500px;
+
+
+}
+
+#formulaire p{
+	font-size: 2em;
+	margin-top: 0.5em;
+	margin-bottom: -0.5em;
+
+}
+
+select{
+
+	font-family: Raleway, arial, "Times New Roman";
+	border-radius: 1em;
+	font-size: 1.1em;
+	margin: 1em;
+
+
+	
+
+}
+
+
+
+
+#contenneurMessages{
+	 
+	padding: 4em;
+	font-family: Raleway, arial, "Times New Roman";
+ 	font-size: 1em;
+ 	color: white;
+ 	text-align: center;
+ 	margin: 1em 0 0 0;
+
+ 		
+}
+
+.meteotemp{
+		background-image: url(../images/sun79.png);
+		font-family: Raleway, arial, "Times New Roman";
+ 		font-size: 5em;
+ 		text-align: right;
+ 		color: white;
+ 		background-position: left;
+ 		background-size: 80px;
+ 		background-repeat: no-repeat;
+ 		width: 270px;
+ 		margin: auto;		
+}
+
+.contenneurMessages2{
+	margin: 20px auto 20px auto;
+		
+	width: 400px;
+	text-align: none;
+}
+
+.meteoVent{
+	/*background-image: url(../images/vent.png);
+	background-position: left;
+ 	background-size: 30px;
+ 	background-repeat: no-repeat;*/
+	margin-bottom: 5px;
+	
+	
+
+}
+
+.meteoRess{
+	padding-top: 10px;
+}
+
+.meteoVisib{
+	margin-bottom: 5px;
+
+}
+
+
+@media (max-width: 700px){
+
+h1{
+	font-size: 5em;
+	margin: 2.5em 0 0 0; 
+}
+
+
+select{
+
+
+	width: 50%;
+	font-size: 1.1em;
+
+
+}
+
+#formulaire p{
+	font-size: 1em;
+	
+
+}
+
+
+}
+
+
+
+
